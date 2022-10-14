@@ -1,0 +1,18 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Manuelcarbajal/name the rempository.git
+git push -u origin main
+
+
+comando de ayuda
+
+//para cragar a el origien si ocurre un error
+git push 
+
+
+
+eliminar el origen remoto
+
+git remote rm origin

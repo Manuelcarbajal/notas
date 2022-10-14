@@ -1,0 +1,136 @@
+display:flex;
+    justify-content: space-between; :hace espacio entre palbras
+    align-items: center; centra la letras en las pantalla
+    padding: 60px 100px; :darle contorno a una imagen funciona como manecillas de reloj arriva,derecha,abajo,izquierda
+############################################################################################################################
+.icon{
+    margin-right: 15px; :da marguen de un icono
+}
+
+font-size: 2em; : aumenta el tamaño del icono
+####################################################
+display: grid; . activa todo los grid
+    grid-template-columns: 1fr 1fr 1fr; :crea columnas se aplica una por una
+    grid-gap:10px; :tapño de pixeles
+
+############################################################################################
+//con esto se ajusta el tamaño de la imagen//
+width:216px;
+  height:100%: 
+
+  //herencias y tamaño de la fuente//
+  .item-wrapper>.item-description{
+    font-size:30px;
+
+###################################################################
+
+.center-column{
+    display:grid; //activa los grid//
+    grid-template-columns: 1fr; //numero de colmnas en las que se divide//
+    grid-gap:42px; //sube o hace que baje las letras//
+    width: 500px;// acomoda hacia la pocision izquierda la casillas(letras)//
+
+#########################################################################################
+.links-wrappers > .nav-link a{
+    font-family: 'Aboreto', cursive; ///letraa estilo/
+    color:red; //color de letras//
+    text-decoration:none; //decoracion ninguna//
+    transition:0.5s; //numero de segundos de trasicion//
+}
+.links-wrappers > .nav-link a:hover{// se agrega el hover despues a: //
+    color:greenyellow; 
+    letter-spacing:5px; //define espacio de separacion entre eltras al paar el cursor APLIA//
+}
+#######################################################
+//con este podemos acomodar style de un icono//
+color:black;
+    text-decoration: none; 
+    font-size: 0.9em; //tamaño del icocno/ relleno/
+    transition:0.5s;
+######################################################################
+.hero-section{
+    background-image: url(../Img/background/patata.jpg); :Importa la imagen
+    padding:100px; :agrega relleno para el contenido
+    height:300px;  : declara altura del contenido
+    background-attachment: fixed; :fija la imagen al fondo de l apagina
+    background-position: center; : este centra la imagen
+    background-repeat: no-repeat; :hace que la imagenes se repitan haci que solo se usa una imagen si quieres que oaresca una vez
+    background-size: cover; :toma la imagen la reduce y la corta
+
+###############################################################################################################################################3
+.hero-section > .top-heading {
+    padding:1px 20px; :margenes
+    background-color:black; : color de fondo de elemneto
+    color: aqua; :color de letras
+    width: 290px; :especifica el ancho de conteniodo de un elemento
+    border-radius: 2px; :permite redondear los bordes de las cajas
+    margin-top:15px; :establec emargen para los cuatro lados
+    ################################################################################
+    generador de box-shadowns en css (pagina):lo que haces acomodar los bordes sobreados del relleno 
+      
+     HTML Character Entities
+
+     html simboolos 
+
+    ##############################################################
+     width: 180px;
+    height:100%;
+    
+    filter: brightness(90%);/*Brillo de imagen*/
+
+    opacity:0.5; /*reduce opacidad de imagen*/
+    #######################################################################
+    footer-column > .footer-wrapps > .date{
+    # font-size: 1em; //sirve para ajustar tamaño de letras//
+    color:orange;
+    text-transform: uppercase; //este modifica de mayusculas o minisculas el tippo de letras//
+
+###############################################################################################################
+.footer-column > .footer-Logo img {
+    width: 180px; ancho
+    height:100%; alto
+    
+    filter: brightness(90%);/*Brillo de imagen*/
+    opacity:0.5; opacidad de la imagen
+
+    #####################3333########################################################3
+    .skewed-header > .header-bg{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    transform:skewy(-6deg); /*le da una recorte a las esquinas de la imagen*/
+    transform-origin: top left ; /*trasforma o arregla la iamgen */
+    filter:brightness(55%);
+#######################################################################################################
+
+.form > .form-group {
+    margin-top:30px;/*separa el margen uno del otro*/
+    margin-bottom:30px;
+}
+
+.form input{
+    font-size:1.5rem;
+    font-family: inherit; /*color de origen a la fuente padre*/
+    color:inherit;/*color de funte padre*/
+    padding: 1.5rem 2rem;/**/
+    border-radius:3px;/*redondear borde*/
+    border:none; /*aparace lineas superior,derecha eh izquierda*/
+    border-bottom:3px solid #11122b;/*grosor de linea de bttom(abajo)*/
+    width: 100%;/*ancho del elelmento */
+    display:block;/*hace bisibles las lineas o margen*/
+    transition:all 0.5;/*lo que dura en cargra al inicar pantalla o cargar paguina*/
+}
+
+############################################################################################
+
+visibility: hidden;//no se mira el texto
+visibility: visible;//si se lmira
+
+align-selft:center; //acomoda un elemnto indibidualmente
+
